@@ -1,4 +1,4 @@
-.close-chat{
+.web-chat .close-chat {
   display: none !important;
 }
 .od-header{
@@ -17,4 +17,7 @@
 }
 .od-chat-window.iframe{
   width: 100%;
+}
+.od-chat-window.iframe.opened {
+  box-shadow: none;
 }
