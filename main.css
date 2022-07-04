@@ -167,11 +167,13 @@ iframe#opendialog-chatwindow {
   display: none;
 }
 
+.od-chat-window.iframe.opened {
+  box-shadow: none;
+}
 
 .od-user-input {
   display: none;
 }
-
 
 .od-message-button__text {
   padding: 16px 32px
@@ -214,8 +216,6 @@ iframe#opendialog-chatwindow {
   height: 40px;
 }
 
-
-
 .od-author.mt span {
   display: block;
 }
@@ -235,7 +235,6 @@ iframe#opendialog-chatwindow {
   padding-top: 0px;
   align-items: center;
 }
-
 
 .od-author.mt .od-author--name {
   color: #666665;
