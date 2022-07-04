@@ -37,8 +37,8 @@
 .od-chat-window.iframe.opened {
   box-shadow: none;
   overflow: scroll;
-  width: 100%;
-  max-width: 100%;
+  width: 70%;
+  max-width: 70%;
 }
 
 .od-chat-window.iframe {
@@ -92,9 +92,9 @@
 }
 
 .mt-wrapper .fadeUp-enter-active .first-message{
-  
-  
 }
+  
+
 .mt-wrapper.first-message, .mt-wrapper.middle-message{
 
 }
