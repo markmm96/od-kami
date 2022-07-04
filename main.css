@@ -21,6 +21,11 @@
   display: none;
 }
 
+.od-author.mt .od-author--name {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .od-webchat-preview__iframe-wrapper {
   width: 100%;
 }
