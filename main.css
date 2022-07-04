@@ -14,6 +14,7 @@
   width: 100%;
   max-width: 100%;
   overflow: scroll;
+  padding: 0;
 }
 
 .od-user-input {
@@ -28,7 +29,12 @@
   align-items: flex-end;
 } */
 .mt-wrapper {
-  max-width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .od-chat-window.iframe.opened {
