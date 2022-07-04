@@ -22,7 +22,6 @@
 }
 
 .od-chat-window.iframe.opened {
-  width: 100%;
   box-shadow: none;
 }
 
@@ -95,9 +94,9 @@
   box-sizing: border-box;
 } */
 
-.last-message {
+/* .last-message {
   display: none;
-}
+} */
 
 .od-author.mt .od-author--name {
   color: #666665;
