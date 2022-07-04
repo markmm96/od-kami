@@ -7,11 +7,14 @@
 .od-messagelist {
   display: flex;
   flex-direction: column;
-  align-content: flex-end !important;
-  align-items: flex-end;
-  align-self: flex-end;
   background-color: pink;
 }
 .od-user-input {
   display: none;
+}
+.od-chat-window {
+  align-items: ;
+}
+..od-chat-window.iframe{
+  width: 100%;
 }
