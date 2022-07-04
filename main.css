@@ -27,6 +27,9 @@
 /* .od-chat-window {
   align-items: flex-end;
 } */
+.mt-wrapper {
+  max-width: 100%;
+}
 
 .od-chat-window.iframe.opened {
   box-shadow: none;
