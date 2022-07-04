@@ -104,3 +104,7 @@ iframe#opendialog-chatwindow {
 .od-author.mt .od-author--name {
   color: #666665;
 }
+
+.od-chat-window {
+  width: 100%;
+}
