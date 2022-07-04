@@ -7,7 +7,8 @@
 .od-messagelist {
   display: flex;
   flex-direction: column;
-  background-color: pink;
+  align-items: flex-end;
+  /* background-color: pink; */
 }
 .od-user-input {
   display: none;
