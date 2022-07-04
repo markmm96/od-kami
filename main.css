@@ -11,7 +11,7 @@
   flex-direction: column;
   align-items: flex-end;
   background-color: pink;
-  width: 100%;
+  overflow: scroll;
 }
 
 .od-user-input {
