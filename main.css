@@ -13,11 +13,13 @@
   display: none;
 }
 .od-chat-window {
-  align-items: ;
+  align-items: flex-end;
 }
-.od-chat-window.iframe{
+.od-chat-window {
   width: 100%;
-}
-.od-chat-window.iframe.opened {
   box-shadow: none;
+}
+
+.od-message-button__text {
+  padding: 16px 32px
 }
