@@ -94,3 +94,7 @@ iframe#opendialog-chatwindow {
   background-color: #fff;
   box-sizing: border-box;
 }
+
+.last-message {
+  display: none;
+}
