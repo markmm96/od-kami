@@ -222,8 +222,7 @@ iframe#opendialog-chatwindow {
 
 .od-author.mt .od-author--name {
   margin-top: 0;
-  margin-left: 0;
-
+  margin-left: 8px;
 }
 
 .od-author.mt {
