@@ -91,13 +91,11 @@
   height: 40px;
 }
 
-.mt-wrapper .fadeUp-enter-active .first-message{
-}
-  
+.mt-wrapper .fadeUp-enter-active .first-message {}
 
-.mt-wrapper.first-message, .mt-wrapper.middle-message{
 
-}
+.mt-wrapper.first-message,
+.mt-wrapper.middle-message {}
 
 .od-author.mt span {
   display: block;
