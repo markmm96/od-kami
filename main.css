@@ -1,5 +1,7 @@
 
-
+.od-header-nav{
+  display: none;
+}
 .od-messagelist {
   display: flex;
   flex-direction: column;
