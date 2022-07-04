@@ -21,6 +21,9 @@
 }
 .od-chat-window.iframe{
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
 }
 
 .od-message-button__text {
