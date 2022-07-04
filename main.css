@@ -29,8 +29,9 @@
 .od-chat-window.iframe {
   display: flex;
   flex-direction: row;
-  align-content: flex-end;
+  align-items: flex-end;
   border-radius: 0px;
+  overflow: scroll;
 }
 
 .od-message-button__text {
