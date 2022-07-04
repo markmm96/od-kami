@@ -20,6 +20,10 @@
   display: none;
 }
 
+.od-webchat-preview__iframe-wrapper {
+  width: 100%;
+}
+
 /* .od-chat-window {
   align-items: flex-end;
 } */
