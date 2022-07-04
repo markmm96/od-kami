@@ -47,3 +47,15 @@
   box-shadow: 0px 4px 8px 0px #0000001A;
   font-weight: 800;
 }
+
+.od-author.mt img.avatar {
+ width: 40px;
+ height: 40px;
+}
+
+.od-author .mt .od-author .reap .author--name{
+  font-size: 12px;
+  margin: 0px;
+  font-weight: 400;
+  align-items: center;
+}
