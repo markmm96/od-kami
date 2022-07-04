@@ -17,14 +17,14 @@
   display: none;
 }
 
-/* .od-chat-window {
+.od-chat-window {
   align-items: flex-end;
-} */
+}
 
-/* .od-chat-window.iframe.opened {
+.od-chat-window.iframe.opened {
   width: 100%;
   box-shadow: none;
-} */
+}
 
 /* .od-chat-window.iframe {
   width: 100%;
