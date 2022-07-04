@@ -1,4 +1,4 @@
-div.od-user-input {
+.od-user-input .od-user-input__form {
   display: none;
   background-color: pink;
 }
