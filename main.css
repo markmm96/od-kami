@@ -24,6 +24,7 @@
 
 .od-chat-window.iframe.opened {
   box-shadow: none;
+  overflow: scroll;
 }
 
 .od-chat-window.iframe {
