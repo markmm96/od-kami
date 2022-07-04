@@ -32,6 +32,7 @@
 
 .mt {
   border-radius: 32px;
+  font-size: 15px;
 }
 .reap {
   border-bottom-left-radius: 8px
@@ -49,6 +50,7 @@
   box-shadow: 0px 1px 2px 0px #42301F08;
   box-shadow: 0px 4px 8px 0px #0000001A;
   font-weight: 800;
+  padding: 16px 48px;
 }
 
 .od-author.mt img.avatar {
