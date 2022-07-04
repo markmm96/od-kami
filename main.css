@@ -31,6 +31,8 @@
 .od-chat-window.iframe.opened {
   box-shadow: none;
   overflow: scroll;
+  width: 100%;
+  max-width: 100%;
 }
 
 .od-chat-window.iframe {
