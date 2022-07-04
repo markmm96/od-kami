@@ -2,3 +2,8 @@
   display: none !important;
   background-color: pink !important;
 }
+
+.od-message-button__text{
+  background-color: aqua !important;
+  background: aqua !important;
+}
