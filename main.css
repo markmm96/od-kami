@@ -3,7 +3,7 @@
   background: aqua !important;
 }
 
-.od-message-list {
+.od-messagelist {
   display: flex;
   align-items: flex-end;
 }
