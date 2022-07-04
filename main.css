@@ -5,7 +5,7 @@
 .od-messagelist {
   display: flex;
   flex-direction: column;
-  align-content: flex-end;
+  align-content: flex-end !important;
   align-items: flex-end;
   align-self: flex-end;
   background-color: pink;
