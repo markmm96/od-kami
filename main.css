@@ -1,3 +1,4 @@
 .od-user-input {
-  display: none !important;
+  display: none;
+  background-color: pink;
 }
