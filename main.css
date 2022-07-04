@@ -1,4 +1,6 @@
-
+.close-chat{
+  display: none;
+}
 .od-header{
   display: none;
 }
