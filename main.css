@@ -1,9 +1,9 @@
 .od-message-text {
-  background-color: aqua !important;
-  background: aqua !important;
+
 }
 
 .od-messagelist {
   display: flex;
+  flex-direction: column;
   align-items: flex-end;
 }
