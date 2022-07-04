@@ -7,9 +7,9 @@
 }
 
 .od-messagelist {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-end; */
   background-color: pink;
   overflow: scroll;
 }
