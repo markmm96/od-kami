@@ -26,13 +26,12 @@
   box-shadow: none;
 }
 
-/* .od-chat-window.iframe {
-  width: 100%;
+.od-chat-window.iframe {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   border-radius: 0px;
-} */
+}
 
 .od-message-button__text {
   padding: 16px 32px
