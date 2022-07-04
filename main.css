@@ -2,3 +2,8 @@
   background-color: aqua !important;
   background: aqua !important;
 }
+
+.od-message-list {
+  display: flex;
+  align-items: flex-end;
+}
