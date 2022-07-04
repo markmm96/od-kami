@@ -15,6 +15,6 @@
 .od-chat-window {
   align-items: ;
 }
-..od-chat-window.iframe{
+.od-chat-window.iframe{
   width: 100%;
 }
