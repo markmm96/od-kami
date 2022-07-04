@@ -1,11 +1,4 @@
-.od-user-input .od-user-input__form {
-  display: none !important;
-  background-color: pink !important;
-}
-
-.od-message-text .mt .reap{
+.od-message-text {
   background-color: aqua !important;
   background: aqua !important;
 }
-
-THIS IS A TEST
