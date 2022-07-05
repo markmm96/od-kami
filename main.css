@@ -345,4 +345,11 @@ span.od-fp-form__label {
   text-decoration: none;
 }
 
+.od-external-buttons .od-external-buttons__row{
+  height: auto;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
 
