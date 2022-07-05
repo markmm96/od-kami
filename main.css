@@ -307,7 +307,8 @@ iframe#opendialog-chatwindow {
 }
 
 .od-fp-form .od-fp-form__input:focus {
-  border: 1px solid #dfded9;
+  /* border: 1px solid #dfded9; */
+  box-shadow:0px 0px 0px 10px red inset;
 }
 
 span.od-fp-form__label {
