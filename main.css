@@ -251,7 +251,17 @@ iframe#opendialog-chatwindow {
 .od-user-input .od-user-input__form {
   display: flex;
   flex-direction: row;
-  background: pink;
+  background-color: pink;
   border-radius: 100vw;
   border: 1px solid black;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.od-user-input__form .disabled{
+  background: yellow;
+}
+
+.od-user-input .od-user-input__buttons{
+  width: auto;
 }
