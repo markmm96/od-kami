@@ -175,9 +175,9 @@ iframe#opendialog-chatwindow {
   box-shadow: none;
 }
 
-.od-user-input {
+/* .od-user-input {
   display: none;
-}
+} */
 
 .od-message-button__text {
   padding: 16px 32px
