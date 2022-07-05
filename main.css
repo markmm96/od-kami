@@ -302,6 +302,9 @@ textarea:focus {
   border: none;
   outline: none;
 }
+.od-fp-form .od-fp-form__input:focus{
+  border: 1px solid salmon;
+}
 
 .od-fp-form__label{
   margin: 0 auto;
