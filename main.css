@@ -297,7 +297,7 @@ iframe#opendialog-chatwindow {
 }
 
 .od-fp-form .od-fp-form__input {
-  background: #F7F7F7;
+  background: #f3f2ef;
   border-radius: 16px;
   border: none;
   outline: none;
@@ -305,7 +305,7 @@ iframe#opendialog-chatwindow {
 }
 
 .od-fp-form .od-fp-form__input:focus {
-  border: 1px solid salmon;
+  border: 1px solid #d8d7d3;
 }
 
 span.od-fp-form__label {
