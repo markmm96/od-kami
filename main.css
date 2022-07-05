@@ -252,9 +252,9 @@ iframe#opendialog-chatwindow {
   display: flex;
   flex-direction: row;
   border-radius: 100vw;
-  align-items: center;
-  justify-content: space-around;
-  padding: 16px 16px 16px 40px;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 16px 16px 16px 32px;
   background: white;
   border: 0.5px solid #E6E4E1;
   height: 80px;
@@ -267,4 +267,9 @@ iframe#opendialog-chatwindow {
 
 .od-user-input .od-user-input__buttons {
   width: auto;
+}
+
+.od-user-input__form-text-input {
+  margin: 0px;
+
 }
