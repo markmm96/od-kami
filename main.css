@@ -293,7 +293,7 @@ iframe#opendialog-chatwindow {
 
 
 .od-fp-form .od-fp-form__textarea{
-  height: 60%;
+  height: 300px;
 }
 
 .od-fp-form .od-fp-form__input{
@@ -312,4 +312,8 @@ span.od-fp-form__label{
   text-align: center;
   margin-bottom: 16px;
   margin-top: -8px;
+}
+
+.od-fp-form__elements{
+  margin-top: 40px;
 }
