@@ -247,3 +247,11 @@ iframe#opendialog-chatwindow {
 .od-chat-window {
   width: 100%;
 }
+
+.od-user-input__form {
+  display: flex;
+  flex-direction: row;
+  background: pink;
+  border-radius: 100vw;
+  border: 1px solid black;
+}
