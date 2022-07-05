@@ -299,7 +299,7 @@ iframe#opendialog-chatwindow {
 }
 
 .od-fp-form .od-fp-form__input {
-  background: #f3f2ef;
+  background: #f6f5f3;
   border-radius: 16px;
   border: none;
   outline: none;
@@ -307,7 +307,7 @@ iframe#opendialog-chatwindow {
 }
 
 .od-fp-form .od-fp-form__input:focus {
-  border: 1px solid #d8d7d3;
+  border: 1px solid #dfded9;
 }
 
 span.od-fp-form__label {
