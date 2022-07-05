@@ -319,3 +319,8 @@ span.od-fp-form__label {
 .od-fp-form {
   padding: 32px;
 }
+
+.od-fp-form__cancel{
+  color: #666665;
+  text-decoration: none;
+}
