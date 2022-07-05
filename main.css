@@ -268,6 +268,7 @@ iframe#opendialog-chatwindow {
   background: white;
   border: 0.5px solid #E6E4E1;
   height: 80px;
+  width: 100%;
   box-shadow: 0px 1px 2px rgba(66, 48, 31, 0.03), 0px 4px 16px rgba(57, 45, 27, 0.03), 0px 8px 48px rgba(54, 43, 26, 0.03);
 }
 
@@ -280,9 +281,17 @@ iframe#opendialog-chatwindow {
   display: none;
 }
 
+.od-user-input .od-user-input__buttons{
+  width: auto;
+}
 
 .od-user-input__form-text-input {
   margin: 0px;
+
+}
+
+.od-user-input{
+  padding: 16px 24px 16px 24px;
 
 }
 
