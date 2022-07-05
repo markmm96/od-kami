@@ -322,7 +322,7 @@ span.od-fp-form__label {
   padding: 32px;
 }
 
-.od-fp-form__cancel{
+span.od-fp-form__cancel{
   color: #666665;
   text-decoration: none;
 }
