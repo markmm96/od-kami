@@ -248,7 +248,7 @@ iframe#opendialog-chatwindow {
   width: 100%;
 }
 
-.od-user-input__form {
+.od-user-input .od-user-input__form {
   display: flex;
   flex-direction: row;
   background: pink;
