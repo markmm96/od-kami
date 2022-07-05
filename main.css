@@ -302,3 +302,10 @@ textarea:focus {
   border: none;
   outline: none;
 }
+
+.od-fp-form__label{
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: -8px;
+}
