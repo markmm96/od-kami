@@ -291,13 +291,14 @@ iframe#opendialog-chatwindow {
   font-size: 18px;
 }
 
-textarea {
+
+textarea:focus {
+  border: 3px solid orange;
+}
+
+.od-fp-form .od-fp-form__input{
   background: #F7F7F7;
   border-radius: 16px;
   border: none;
   outline: none;
-}
-
-textarea:focus {
-  border: 3px solid orange;
 }
