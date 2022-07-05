@@ -292,8 +292,8 @@ iframe#opendialog-chatwindow {
 }
 
 
-textarea:focus {
-  border: 3px solid orange;
+.od-fp-form .od-fp-form__textarea{
+  height: 60%;
 }
 
 .od-fp-form .od-fp-form__input{
@@ -301,6 +301,7 @@ textarea:focus {
   border-radius: 16px;
   border: none;
   outline: none;
+  padding: 24px;
 }
 .od-fp-form .od-fp-form__input:focus{
   border: 1px solid salmon;
