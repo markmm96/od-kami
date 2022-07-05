@@ -183,7 +183,9 @@ iframe#opendialog-chatwindow {
   padding: 16px 32px;
   box-shadow: 0;
 }
-
+.od-message-text .mt .reap{
+  border-bottom-left-radius: 8px;
+}
 .reap {
   border-bottom-left-radius: 8px;
 }
