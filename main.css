@@ -351,17 +351,20 @@ span.od-fp-form__label {
   height: auto;
   padding: 0px;
   white-space: none;
+  overflow-y: visible;
+  overflow-x: visible;
 }
+
 .od-external-buttons {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.od-external-buttons .od-external-button .od-external-button__button:last-child{
+.od-external-buttons .od-external-button .od-external-button__button:last-child {
   margin: 0;
 }
 
-.iframe .od-external-buttons .od-external-button .od-external-button__button{
+.iframe .od-external-buttons .od-external-button .od-external-button__button {
   padding: 0px;
 }
