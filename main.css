@@ -285,7 +285,17 @@ iframe#opendialog-chatwindow {
   width: 100%;
 }
 
-.od-fp-form__title{
+.od-fp-form__title {
   font-weight: 800;
   font-size: 18px;
+}
+
+.od-fp-form__input .od-fp-form__textarea {
+  background: #F7F7F7;
+  border-radius: 16px;
+  border: 0px;
+}
+
+.od-fp-form__input .od-fp-form__textarea:focus {
+  border: 3px solid orange;
 }
