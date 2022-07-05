@@ -264,6 +264,7 @@ iframe#opendialog-chatwindow {
 
 .od-user-input .od-user-input__form.disabled {
   background: white;
+  display: none;
 }
 
 .od-user-input .od-user-input__buttons {
