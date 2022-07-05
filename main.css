@@ -270,6 +270,7 @@ iframe#opendialog-chatwindow {
 
 .od-user-input .od-user-input__buttons {
   width: auto;
+  background: blue;
 }
 
 .od-user-input__form-text-input {
