@@ -270,9 +270,9 @@ iframe#opendialog-chatwindow {
 }
 
 .od-chat-window.iframe {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: flex-end; */
   border-radius: 0px;
   width: 100%;
 }
