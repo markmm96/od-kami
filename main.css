@@ -251,17 +251,20 @@ iframe#opendialog-chatwindow {
 .od-user-input .od-user-input__form {
   display: flex;
   flex-direction: row;
-  background-color: pink;
   border-radius: 100vw;
-  border: 1px solid black;
   align-items: center;
   justify-content: space-around;
+  padding: 16px 16px 16px 40px;
+  background: white;
+  border: 0.5px solid #E6E4E1;
+  height: 80px;
+  box-shadow: 0px 1px 2px rgba(66, 48, 31, 0.03), 0px 4px 16px rgba(57, 45, 27, 0.03), 0px 8px 48px rgba(54, 43, 26, 0.03);
 }
 
-.od-user-input__form .disabled{
-  background: yellow;
+.od-user-input .od-user-input__form.disabled {
+  background: white;
 }
 
-.od-user-input .od-user-input__buttons{
+.od-user-input .od-user-input__buttons {
   width: auto;
 }
