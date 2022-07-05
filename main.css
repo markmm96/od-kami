@@ -213,6 +213,7 @@ iframe#opendialog-chatwindow {
   font-weight: 800;
   padding: 16px 32px;
   font-size: 14px;
+  border: 0px;
 }
 
 .od-author.mt img.avatar {
@@ -270,10 +271,6 @@ iframe#opendialog-chatwindow {
   display: none;
 }
 
-.od-user-input .od-user-input__buttons {
-  width: auto;
-  background: blue;
-}
 
 .od-user-input__form-text-input {
   margin: 0px;
@@ -307,8 +304,9 @@ iframe#opendialog-chatwindow {
 }
 
 .od-fp-form .od-fp-form__input:focus {
-  /* border: 1px solid #dfded9; */
-  box-shadow:0px 0px 0px 10px red inset;
+  border: none;
+  outline: none;
+  box-shadow:0px 0px 0px 1px #E6E4E1 inset;
 }
 
 span.od-fp-form__label {
@@ -327,3 +325,5 @@ span.od-fp-form__cancel{
   color: #666665;
   text-decoration: none;
 }
+
+
