@@ -70,7 +70,9 @@
   height: 80px;
   overflow: visible;
 }
-
+.od-header .od-header--open{
+  display: none;
+}
 .od-message-text .mt .reap {
   border-bottom-left-radius: 8px;
 }
