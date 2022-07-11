@@ -1,1 +1,370 @@
+/* .web-chat .close-chat {
+  display: none !important;
+}
 
+.od-header {
+  display: none;
+}
+
+.od-messagelist {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  background-color: #FFFEFC;
+  width: 100%;
+  max-width: 100%;
+  overflow: scroll;
+  padding: 0;
+}
+
+.od-user-input {
+  display: none;
+}
+
+.od-author.mt .od-author--name {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.od-webchat-preview__iframe-wrapper {
+  width: 100%;
+}
+
+.od-chat-window {
+  align-items: flex-end;
+}
+
+.mt-wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 8px;
+}
+
+.od-chat-window.iframe.opened {
+  box-shadow: none;
+  overflow: scroll;
+  width: 70%;
+  max-width: 70%;
+}
+
+
+
+.od-message-button__text {
+  padding: 16px 32px
+}
+
+.mt {
+  border-radius: 32px;
+  font-size: 15px;
+  padding: 16px 32px;
+  box-shadow: 0;
+}
+
+.reap {
+  border-bottom-left-radius: 8px;
+}
+
+.emit {
+  border-bottom-right-radius: 8px;
+}
+
+.od-message-button .od-message-button__inline-buttons {
+  margin-top: 0px;
+}
+
+.od-message-button .od-message-button__buttons-wrapper {
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+.od-message-button .od-message-button__buttons-wrapper__button {
+  border: 0.5px solid #40B2AC;
+  box-shadow: 0px 4px 16px 0px #392D1B08;
+  box-shadow: 0px 1px 2px 0px #42301F08;
+  box-shadow: 0px 4px 8px 0px #0000001A;
+  font-weight: 800;
+  padding: 16px 32px;
+}
+
+.od-author.mt img.avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.mt-wrapper .fadeUp-enter-active .first-message {
+
+}
+
+
+.mt-wrapper.first-message,
+.mt-wrapper.middle-message {
+
+}
+
+.od-author.mt span {
+  display: block;
+}
+
+.od-author.mt .od-author--name {
+  margin-top: 0;
+  margin-left: 0;
+
+}
+
+.od-author.mt {
+  display: flex;
+  font-size: 14px;
+  margin: 0px 0px 0px 0px;
+  font-weight: 500;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+
+iframe#opendialog-chatwindow {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  border: none;
+
+  max-height: 100vw;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+
+  box-sizing: border-box;
+}
+
+.last-message {
+  display: none;
+} 
+
+.od-author.mt .od-author--name {
+  color: #666665;
+}
+
+.od-chat-window {
+  width: 100%;
+} 
+
+*/
+
+
+/* -------------------- */
+
+.od-messagelist {
+  background-color: #FFFEFC;
+}
+
+.web-chat .close-chat {
+  display: none !important;
+}
+
+.od-header {
+  display: none;
+}
+
+.od-chat-window.iframe.opened {
+  box-shadow: none;
+}
+
+/* .od-user-input {
+  display: none;
+} */
+
+.od-message-button__text {
+  padding: 16px 32px
+}
+
+.mt {
+  border-radius: 32px;
+  font-size: 15px;
+  padding: 16px 32px;
+  box-shadow: 0;
+}
+
+.od-message-text .mt .reap {
+  border-bottom-left-radius: 8px;
+}
+
+.reap {
+  border-bottom-left-radius: 8px;
+}
+
+.emit {
+  border-bottom-right-radius: 8px;
+}
+
+.od-message-button .od-message-button__inline-buttons {
+  margin-top: 0px;
+}
+
+.od-message-button .od-message-button__buttons-wrapper {
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+.od-message-button .od-message-button__buttons-wrapper__button,
+.od-send-btn,
+.od-external-buttons .od-external-button .od-external-button__button,
+.od-fp-form__submit {
+  box-shadow: 0px 4px 16px 0px #392D1B08;
+  box-shadow: 0px 1px 2px 0px #42301F08;
+  box-shadow: 0px 4px 8px 0px #0000001A;
+  font-weight: 800;
+  padding: 16px 32px !important;
+  font-size: 15px;
+  border: 0px;
+  transition: 0.4s cubic-bezier(0.000, 0.405, 0.000, 1.285);
+}
+
+.od-message-button .od-message-button__buttons-wrapper__button:hover,
+.od-send-btn,
+.od-external-buttons .od-external-button .od-external-button__button:hover,
+.od-fp-form__submit:hover {
+  border: 0px;
+  transform: scale(1.05);
+}
+
+.od-author.mt img.avatar {
+  width: 24px;
+  height: 24px;
+}
+
+.od-author.mt span {
+  display: block;
+}
+
+.od-author.mt .od-author--name {
+  margin-top: 0;
+  margin-left: 8px;
+}
+
+.od-author.mt {
+  display: flex;
+  font-size: 12px;
+  margin: 0px 0px 0px 0px;
+  font-weight: 500;
+  margin-left: 0px;
+  margin-bottom: -8px;
+  padding-top: 0px;
+  align-items: center;
+}
+
+.od-author.mt .od-author--name {
+  color: #666665;
+}
+
+.od-chat-window {
+  width: 100%;
+}
+
+.od-user-input .od-user-input__form {
+  display: flex;
+  flex-direction: row;
+  border-radius: 100vw;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 16px 16px 16px 32px;
+  background: white;
+  border: 0.5px solid #E6E4E1;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0px 1px 2px rgba(66, 48, 31, 0.03), 0px 4px 16px rgba(57, 45, 27, 0.03), 0px 8px 48px rgba(54, 43, 26, 0.03);
+}
+
+.od-user-input .od-user-input__form::placeholder {
+  color: red;
+}
+
+.od-user-input .od-user-input__form.disabled {
+  background: white;
+  display: none;
+}
+
+.od-user-input .od-user-input__buttons {
+  width: auto;
+}
+
+.od-user-input__form-text-input {
+  margin: 0px;
+
+}
+
+.od-user-input {
+  padding: 16px 24px 16px 24px;
+
+}
+
+.od-chat-window.iframe {
+  /* display: flex;
+  flex-direction: row;
+  align-items: flex-end; */
+  border-radius: 0px;
+  width: 100%;
+}
+
+.od-fp-form__title {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+
+.od-fp-form .od-fp-form__textarea {
+  height: 300px;
+}
+
+.od-fp-form .od-fp-form__input {
+  background: #f6f5f3;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 0px 1px #E6E4E1 inset;
+  padding: 24px;
+}
+
+.od-fp-form .od-fp-form__input:focus {
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 0px 1px #c4c2be inset;
+}
+
+span.od-fp-form__label {
+  display: none;
+}
+
+.od-fp-form__elements {
+  margin-top: 40px;
+}
+
+.od-fp-form {
+  padding: 32px;
+}
+
+.od-fp-form .od-fp-form__cancel {
+  color: #666665;
+  text-decoration: none;
+}
+
+.od-external-buttons .od-external-buttons__row {
+  height: auto;
+  padding: 0px;
+  white-space: none;
+  overflow-y: visible;
+  overflow-x: visible;
+}
+
+.od-external-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.od-external-buttons .od-external-button .od-external-button__button:last-child {
+  margin: 0;
+}
+
+.iframe .od-external-buttons .od-external-button .od-external-button__button {
+  padding: 0px;
+}
