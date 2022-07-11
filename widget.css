@@ -120,7 +120,7 @@
   border-radius: 16px;
 }
 
-.od-user-input .od-user-input__form {
+.od-message-form--element-textarea {
   display: flex;
   flex-direction: row;
   border-radius: 100vw;
