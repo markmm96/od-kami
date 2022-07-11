@@ -120,7 +120,9 @@
   border-radius: 16px;
 }
 
-.od-message-form--element-textarea {
+
+
+.od-user-input .od-user-input__form {
   display: flex;
   flex-direction: row;
   border-radius: 100vw;
@@ -175,7 +177,7 @@
   height: 300px;
 }
 
-.od-fp-form .od-fp-form__input {
+.od-message-form--element-textarea {
   background: #f6f5f3;
   border-radius: 16px;
   border: none;
