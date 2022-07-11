@@ -122,11 +122,14 @@
 
 .od-chat-window {
   width: 100%;
-  background: green;
   border-radius: 16px;
 }
 
-
+.od-chat-window.iframe.closed{
+  padding: 0;
+  height: 64px;
+  width: 64px;
+}
 
 .od-user-input .od-user-input__form {
   display: flex;
