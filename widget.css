@@ -228,6 +228,10 @@
   padding: 16px;
 }
 
+.od-message-form .submit-button{
+  border-radius: 100vw;
+}
+
 
 .od-fp-form .od-fp-form__input:focus {
   border: none;
