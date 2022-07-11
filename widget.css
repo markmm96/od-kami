@@ -228,7 +228,9 @@
   border: none;
   outline: none;
   box-shadow: 0px 0px 0px 1px #E6E4E1 inset;
-  padding: 24px;
+  border: none;
+  min-height: 300px;
+
 }
 
 .od-fp-form .od-fp-form__input:focus {
