@@ -17,10 +17,18 @@
   box-shadow: 0;
 }
 
+.mt-wrapper{
+  padding-bottom: 8px;
+
+}
+
 .od-message-text .mt .reap {
   border-bottom-left-radius: 8px;
 }
 
+.od-chat-window.iframe.opened{
+  border-radius: 24px;
+}
 .reap {
   border-bottom-left-radius: 8px;
 }
