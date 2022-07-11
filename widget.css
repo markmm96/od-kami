@@ -46,13 +46,29 @@
 }
 .od-header--closed{
   margin: 0;
+
 }
 .od-header .od-header-cta{
   background: teal;
   width: 80px;
   height: 80px;
+  margin: 0;
 
 }
+
+.od-chat-window.closed.iframe {
+  width: 80px;
+  height: 80px;
+  background: pink;
+  box-shadow: 0px 4px 16px 0px #392D1B08;
+  box-shadow: 0px 1px 2px 0px #42301F08;
+  box-shadow: 0px 4px 8px 0px #0000001A;
+  font-weight: 800;
+  padding: 16px 32px !important;
+  font-size: 15px;
+  border: 0px;
+}
+
 .od-message-text .mt .reap {
   border-bottom-left-radius: 8px;
 }
