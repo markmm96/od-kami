@@ -130,6 +130,10 @@
   transform: scale(1.05);
 }
 
+.od-send-btn{
+  font-size: 13px;
+}
+
 .od-author.mt img.avatar {
   width: 24px;
   height: 24px;
@@ -199,6 +203,9 @@
 
 .od-user-input__form-text-input {
   margin: 0px;
+  font-size: 14px;
+  height: auto;
+
 
 }
 
