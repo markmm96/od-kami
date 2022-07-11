@@ -35,6 +35,12 @@
 
 }
 
+.od-header .od-header--closed{
+  margin-bottom: 40px;
+  background-color: red;
+  width: 300px;
+  height: 300px;
+}
 .od-message-text .mt .reap {
   border-bottom-left-radius: 8px;
 }
