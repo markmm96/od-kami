@@ -61,7 +61,10 @@
   margin: 0;
 
 }
-
+.od-header .od-header-cta__icon{
+  width: 40px;
+  height: 40px;
+}
 .od-chat-window.closed.iframe {
   width: 80px;
   height: 80px;
