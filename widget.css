@@ -2,10 +2,6 @@
   display: none;
 }
 
-.od-chat-window.iframe.opened {
-  box-shadow: none;
-}
-
 
 .od-message-button__text {
   padding: 16px 32px
