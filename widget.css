@@ -39,6 +39,12 @@
 
 }
 
+.od-header-cta{
+  box-shadow: 0px 4px 16px 0px #392D1B08;
+  box-shadow: 0px 1px 2px 0px #42301F08;
+  box-shadow: 0px 4px 8px 0px #0000001A;
+}
+
 .od-header .od-header--closed {
   margin-bottom: 40px;
   width: 300px;
@@ -59,14 +65,7 @@
 .od-chat-window.closed.iframe {
   width: 80px;
   height: 80px;
-  background: pink;
-  box-shadow: 0px 4px 16px 0px #392D1B08;
-  box-shadow: 0px 1px 2px 0px #42301F08;
-  box-shadow: 0px 4px 8px 0px #0000001A;
-  font-weight: 800;
-  padding: 16px 32px !important;
-  font-size: 15px;
-  border: 0px;
+  overflow: visible;
 }
 
 .od-message-text .mt .reap {
