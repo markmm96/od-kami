@@ -2,7 +2,16 @@
   display: none;
 }
 
+.web-chat .close-chat{
+  margin-top: 24px;
+  justify-content: flex-end;
 
+}
+
+.close-chat__button closeChatButtonAnimate{
+  width: 64px;
+  height: 64px;
+}
 .od-message-button__text {
   padding: 16px 32px
 }
@@ -35,7 +44,7 @@
   border-bottom-left-radius: 8px;
 }
 .web-chat{
-  padding-bottom: 32px;
+  padding-bottom: 88px;
 }
 .emit {
   border-bottom-right-radius: 8px;
