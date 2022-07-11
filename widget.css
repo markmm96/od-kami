@@ -103,6 +103,8 @@
 
 .od-chat-window {
   width: 100%;
+  background: green;
+  border-radius: 16px;
 }
 
 .od-user-input .od-user-input__form {
