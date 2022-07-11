@@ -9,8 +9,9 @@
 }
 
 .web-chat .close-chat__button {
-  width: 48px;
-  height: 48px;
+  width: 80px;
+  height: 80px;
+  background: pink;
 }
 
 .web-chat .close-chat__img {
