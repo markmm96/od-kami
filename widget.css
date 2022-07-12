@@ -38,6 +38,10 @@
   padding-bottom: 8px;
 
 }
+.od-header .od-header-cta__icon{
+  width: 32px;
+  height: 32px;
+}
 
 .od-header-cta{
 
