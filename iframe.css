@@ -24,3 +24,7 @@ iframe#opendialog-chatwindow{
    height: 100%;
    width: 100%;
  }
+
+ #chatbot>iframe#opendialog-chatwindow {
+   position: static;
+ }
