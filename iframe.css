@@ -15,16 +15,16 @@ iframe#opendialog-chatwindow{
 
 .od-chat-window.iframe {
    margin: 0;
-   width: 100%;
-   height: 100%;
+   width: 100vw;
+   height: 100vh;
  }
  
 .od-chat-window.iframe.opened {
    margin: 0;
-   height: 100%;
-   width: 100%;
  }
 
- #chatbot>iframe#opendialog-chatwindow {
+#chatbotEmbed>iframe#opendialog-chatwindow {
    position: static;
+   height: 100vh;
+   width: 100vw;
  }
