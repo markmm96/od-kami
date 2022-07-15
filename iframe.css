@@ -1,9 +1,14 @@
 #app,
 body {
-   width: 1000px;
+   width: 100vw;
 }
 
 .od-webchat-preview__iframe-wrapper {
-   width: 1000px;
+   width: 100vw;
 
 }
+
+iframe#opendialog-chatwindow{
+   width: 100vw;
+   height: 100vh;
+ }
