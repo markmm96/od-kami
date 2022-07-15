@@ -368,3 +368,8 @@ span.od-fp-form__label {
 .iframe .od-external-buttons .od-external-button .od-external-button__button {
   padding: 0px;
 }
+
+iframe#opendialog-chatwindow{
+  width: 100vw;
+  height: 100vh;
+}
