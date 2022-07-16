@@ -373,3 +373,7 @@ iframe#opendialog-chatwindow{
   width: 100vw;
   height: 100vh;
 }
+
+.od-author.mt.reap{
+  margin: 0 !important;
+}
