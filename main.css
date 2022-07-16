@@ -315,7 +315,8 @@ iframe#opendialog-chatwindow {
   height: 300px;
 }
 
-.od-fp-form .od-fp-form__input {
+.od-fp-form .od-fp-form__input,
+.od-message-form .od-message-form--element-textarea {
   background: #f6f5f3;
   border-radius: 16px;
   border: none;
@@ -324,7 +325,8 @@ iframe#opendialog-chatwindow {
   padding: 24px;
 }
 
-.od-fp-form .od-fp-form__input:focus {
+.od-fp-form .od-fp-form__input:focus,
+.od-message-form .od-message-form--element-textarea:focus {
   border: none;
   outline: none;
   box-shadow: 0px 0px 0px 1px #c4c2be inset;
