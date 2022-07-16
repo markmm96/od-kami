@@ -377,3 +377,7 @@ iframe#opendialog-chatwindow{
 .od-author.mt.reap{
   margin: 0 !important;
 }
+
+.mt-wrapper {
+  padding-bottom: 8px;
+}
