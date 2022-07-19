@@ -1,163 +1,21 @@
-/* .web-chat .close-chat {
-  display: none !important;
-}
-
-.od-header {
-  display: none;
-}
-
 .od-messagelist {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-
-  background-color: #FFFEFC;
-  width: 100%;
-  max-width: 100%;
-  overflow: scroll;
-  padding: 0;
-}
-
-.od-user-input {
-  display: none;
-}
-
-.od-author.mt .od-author--name {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.od-webchat-preview__iframe-wrapper {
-  width: 100%;
-}
-
-.od-chat-window {
-  align-items: flex-end;
-}
-
-.mt-wrapper {
-  max-width: 80%;
-  margin: 0 auto;
-  padding-bottom: 8px;
-}
-
-.od-chat-window.iframe.opened {
-  box-shadow: none;
-  overflow: scroll;
-  width: 70%;
-  max-width: 70%;
-}
-
-
-
-.od-message-button__text {
-  padding: 16px 32px
-}
-
-.mt {
+  padding: 0px 24px 120px 0px;
+  background-color: white;
   border-radius: 32px;
-  font-size: 15px;
-  padding: 16px 32px;
-  box-shadow: 0;
+  border: 0.5px solid #E6E4E1;
+  border-radius: 32px;
+  box-shadow: 0px 8px 64px 0px #362B1A08, 0px 8px 24px 0px #392D1B08, 0px 2px 4px 0px #42301F08 !important;
 }
 
-.reap {
-  border-bottom-left-radius: 8px;
-}
-
-.emit {
-  border-bottom-right-radius: 8px;
-}
-
-.od-message-button .od-message-button__inline-buttons {
-  margin-top: 0px;
-}
-
-.od-message-button .od-message-button__buttons-wrapper {
-  margin-bottom: 16px;
-  margin-top: 8px;
-}
-
-.od-message-button .od-message-button__buttons-wrapper__button {
-  border: 0.5px solid #40B2AC;
-  box-shadow: 0px 4px 16px 0px #392D1B08;
-  box-shadow: 0px 1px 2px 0px #42301F08;
-  box-shadow: 0px 4px 8px 0px #0000001A;
-  font-weight: 800;
-  padding: 16px 32px;
-}
-
-.od-author.mt img.avatar {
-  width: 40px;
-  height: 40px;
-}
-
-.mt-wrapper .fadeUp-enter-active .first-message {
-
-}
-
-
-.mt-wrapper.first-message,
-.mt-wrapper.middle-message {
-
-}
-
-.od-author.mt span {
-  display: block;
-}
-
-.od-author.mt .od-author--name {
-  margin-top: 0;
-  margin-left: 0;
-
-}
-
-.od-author.mt {
-  display: flex;
-  font-size: 14px;
-  margin: 0px 0px 0px 0px;
-  font-weight: 500;
-  margin-left: 0px;
-  margin-bottom: 0px;
-  padding-top: 0px;
-}
-
-iframe#opendialog-chatwindow {
+.od-chat-window.iframe.opened{
+  width: auto;
+  max-width: 800px;
+  padding: 48px;
   position: relative;
-  bottom: 0;
-  right: 0;
-  border: none;
-
-  max-height: 100vw;
-  height: 100vh;
-  width: 100vw;
-  background-color: #fff;
-
-  box-sizing: border-box;
 }
 
-.last-message {
-  display: none;
-} 
-
-.od-author.mt .od-author--name {
-  color: #666665;
-}
-
-.od-chat-window {
-  width: 100%;
-} 
-
-*/
 
 
-/* -------------------- */
-
-.od-messagelist {
-  background-color: none;
-  border-radius: 32px;
-  padding-bottom: 120px;
-}
 
 .web-chat .close-chat {
   display: none !important;
@@ -167,13 +25,6 @@ iframe#opendialog-chatwindow {
   display: none;
 }
 
-.od-chat-window.iframe.opened {
-  box-shadow: none;
-}
-
-/* .od-user-input {
-  display: none;
-} */
 
 .od-message-button__text {
   padding: 16px 32px
@@ -258,9 +109,6 @@ iframe#opendialog-chatwindow {
 }
 
 
-.od-chat-window {
-  width: 100%;
-}
 
 .od-user-input .od-user-input__form {
   display: flex;
@@ -297,13 +145,6 @@ iframe#opendialog-chatwindow {
   padding: 24px 24px 24px 24px;
 }
 
-.od-chat-window.iframe {
-  /* display: flex;
-  flex-direction: row;
-  align-items: flex-end; */
-  border-radius: 0px;
-  width: 100%;
-}
 
 .od-fp-form__title {
   font-weight: 800;
@@ -387,18 +228,7 @@ iframe#opendialog-chatwindow{
   padding-bottom: 8px;
 }
 
-.od-messagelist{
-  padding-top: 0px;
-}
-.od-chat-window.iframe.opened{
-  width: auto;
-  max-width: 800px;
-  position: relative;
-  border: 0.5px solid #E6E4E1;
-  border-radius: 32px;
-  margin: 0 auto;
-  box-shadow: 0px 8px 64px 0px #362B1A08, 0px 8px 24px 0px #392D1B08, 0px 2px 4px 0px #42301F08 !important;
-}
+
 .od-user-input{
   background: none;
   position: absolute;
@@ -407,9 +237,6 @@ iframe#opendialog-chatwindow{
   z-index: 1000;
 }
 
-.od-chat-window-container{
-  background: orange;
-}
 
 .od-author.mt img.avatar {
   width: 32px;
