@@ -405,6 +405,7 @@ iframe#opendialog-chatwindow{
   position: absolute;
   bottom: 0px;
   margin-bottom: 0px;
+  z-index: 1000;
 }
 
 .od-chat-window-container{
