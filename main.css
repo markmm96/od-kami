@@ -387,16 +387,15 @@ iframe#opendialog-chatwindow{
   padding-bottom: 8px;
 }
 
-.od-chat-window.iframe.opened{
-  width: 100vw;
-  height: 100%;
-  position: relative;box-shadow: none;
-
-}
-
 .messagelist{
   padding-top: 0px;
 }
 .od-chat-window.iframe.opened{
-  margin-top: -80px;
+  width: 100vw;
+  height: 100%;
+  position: relative;
+  box-shadow: none;
+}
+.od-user-input{
+  background-color: none;
 }
