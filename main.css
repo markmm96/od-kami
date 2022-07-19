@@ -292,3 +292,7 @@ iframe#opendialog-chatwindow{
     padding-top: 0px;
   }
 }
+
+.od-message-typing.mt .blob-content{
+  background-color: #666665;
+}
