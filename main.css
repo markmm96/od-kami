@@ -12,6 +12,8 @@
   max-width: 800px;
   padding: 48px;
   position: relative;
+  box-shadow: none;
+  border: 0px;
 }
 
 
