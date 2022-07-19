@@ -241,8 +241,10 @@ iframe#opendialog-chatwindow {
 }
 
 .od-author.mt .od-author--name {
-  margin-top: 0;
+  margin-top: 0px;
+  padding-bottom: 0px;
   margin-left: 8px;
+  color: #666665;
 }
 
 .od-author.mt {
@@ -255,9 +257,6 @@ iframe#opendialog-chatwindow {
   align-items: center;
 }
 
-.od-author.mt .od-author--name {
-  color: #666665;
-}
 
 .od-chat-window {
   width: 100%;
