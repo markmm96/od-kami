@@ -245,8 +245,7 @@ iframe#opendialog-chatwindow{
 
 .od-author.mt.reap{
   margin: 0 !important;
-  scroll-padding-top: 24px;
-
+  padding-top: 24px;
 }
 
 .mt-wrapper {
@@ -289,5 +288,9 @@ iframe#opendialog-chatwindow{
 
   .od-messagelist {
     border-radius: 0px;
+  }
+
+  .od-user-input {
+    padding-top: 0px;
   }
 }
