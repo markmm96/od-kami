@@ -11,6 +11,8 @@ body {
 iframe#opendialog-chatwindow{
    width: 100vw;
    height: 100vh;
+   position: relative;
+   
  }
 
 .od-chat-window.iframe {
