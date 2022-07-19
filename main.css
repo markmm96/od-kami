@@ -125,13 +125,19 @@
 } */
 
 .od-user-input {
-  display: flex;
-  flex-direction: row;
-  border-radius: 100vw;
-  align-items: baseline;
-  justify-content: space-between;
   background: white;
   border-top: 0.5px solid #E6E4E1;
+  height: 100%;
+  width: 100%;
+  margin-left: -48px;
+  margin-right: -48px;
+}
+
+.od-user-input__form {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
   height: 100%;
   width: 100%;
 }
