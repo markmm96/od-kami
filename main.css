@@ -181,7 +181,7 @@ iframe#opendialog-chatwindow {
 
 .mt {
   border-radius: 32px;
-  font-size: 15px;
+  font-size: 17px;
   padding: 16px 32px;
   box-shadow: 0;
 }
@@ -247,12 +247,11 @@ iframe#opendialog-chatwindow {
 
 .od-author.mt {
   display: flex;
-  font-size: 12px;
   margin: 0px 0px 0px 0px;
   font-weight: 500;
   margin-left: 0px;
-  margin-bottom: -8px;
-  padding-top: 0px;
+  margin-bottom: -10px;
+  padding-top: 24px;
   align-items: center;
 }
 
@@ -381,6 +380,8 @@ iframe#opendialog-chatwindow{
 
 .od-author.mt.reap{
   margin: 0 !important;
+  scroll-padding-top: 24px;
+
 }
 
 .mt-wrapper {
@@ -408,4 +409,9 @@ iframe#opendialog-chatwindow{
 
 .od-chat-window-container{
   background: orange;
+}
+
+.od-author.mt img.avatar {
+  width: 32px;
+  height: 32px;
 }
