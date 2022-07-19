@@ -1,12 +1,12 @@
 .od-messagelist {
-  background-color: white;
   border-radius: 32px;
+  background-color: white;
 }
 
 .od-chat-window.iframe.opened{
   width: auto;
   max-width: 800px;
-  padding: 48px;
+  background-color: white;
   position: relative;
   border: 0.5px solid #E6E4E1;
   padding-bottom: 120px;
