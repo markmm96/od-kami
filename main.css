@@ -273,7 +273,7 @@ iframe#opendialog-chatwindow {
   border: 0.5px solid #E6E4E1;
   height: 80px;
   width: 100%;
-  box-shadow: 0px 1px 2px rgba(66, 48, 31, 0.03), 0px 4px 16px rgba(57, 45, 27, 0.03), 0px 8px 48px rgba(54, 43, 26, 0.03);
+  box-shadow: 0px 1px 2px rgba(66, 48, 31, 0.03), 0px 4px 16px rgba(57, 45, 27, 0.03);
 }
 
 .od-user-input .od-user-input__form::placeholder {
@@ -281,7 +281,6 @@ iframe#opendialog-chatwindow {
 }
 
 .od-user-input .od-user-input__form.disabled {
-  background: white;
   display: none;
 }
 
@@ -295,8 +294,7 @@ iframe#opendialog-chatwindow {
 }
 
 .od-user-input {
-  padding: 16px 24px 16px 24px;
-
+  padding: 24px 24px 24px 24px;
 }
 
 .od-chat-window.iframe {
@@ -394,7 +392,6 @@ iframe#opendialog-chatwindow{
 .od-chat-window.iframe.opened{
   width: auto;
   max-width: 800px;
-  height: auto;
   position: relative;
   background: blue;
   border: 0.5px solid #E6E4E1;
@@ -404,7 +401,11 @@ iframe#opendialog-chatwindow{
 }
 .od-user-input{
   background: none;
-  margin-bottom: -48px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 0px;
+
+  /* margin-bottom: -48px; */
 }
 
 .od-chat-window-container{
