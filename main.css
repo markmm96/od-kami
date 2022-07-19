@@ -83,6 +83,10 @@
   transform: scale(1.05);
 }
 
+.od-user-input .od-user-input__buttons .od-send-btn{
+  font-size: 15px;
+}
+
 .od-author.mt img.avatar {
   width: 24px;
   height: 24px;
