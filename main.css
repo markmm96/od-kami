@@ -156,6 +156,7 @@ iframe#opendialog-chatwindow {
 .od-messagelist {
   background-color: none;
   border-radius: 48px;
+  padding-bottom: 120px;
 }
 
 .web-chat .close-chat {
@@ -376,7 +377,6 @@ span.od-fp-form__label {
 iframe#opendialog-chatwindow{
   width: 100vw;
   height: 100vh;
-  background-color: aqua;
 }
 
 .od-author.mt.reap{
@@ -394,7 +394,6 @@ iframe#opendialog-chatwindow{
   width: auto;
   max-width: 800px;
   position: relative;
-  background: blue;
   border: 0.5px solid #E6E4E1;
   border-radius: 32px;
   margin: 0 auto;
@@ -405,11 +404,8 @@ iframe#opendialog-chatwindow{
   position: absolute;
   bottom: 0px;
   margin-bottom: 0px;
-
-  /* margin-bottom: -48px; */
 }
 
 .od-chat-window-container{
-  /* padding: 64px; */
   background: orange;
 }
