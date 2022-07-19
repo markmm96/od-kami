@@ -125,12 +125,8 @@
 } */
 
 .od-user-input {
-  background: white;
-  border-top: 0.5px solid #E6E4E1;
   height: 80px;
   width: 100%;
-  margin-left: -48px !important;
-  margin-right: -48px !important;
 }
 
 .od-user-input__form {
@@ -140,6 +136,10 @@
   justify-content: space-between;
   height: 100%;
   width: 100%;
+  margin-left: -48px !important;
+  margin-right: -48px !important;
+  background: white;
+  border-top: 0.5px solid #E6E4E1;
 }
 
 .od-user-input .od-user-input__form::placeholder {
