@@ -377,6 +377,7 @@ span.od-fp-form__label {
 iframe#opendialog-chatwindow{
   width: 100vw;
   height: 100vh;
+  background-color: aqua;
 }
 
 .od-author.mt.reap{
