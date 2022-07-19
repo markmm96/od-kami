@@ -155,7 +155,7 @@ iframe#opendialog-chatwindow {
 
 .od-messagelist {
   background-color: none;
-  border-radius: 48px;
+  border-radius: 32px;
   padding-bottom: 120px;
 }
 
@@ -241,7 +241,7 @@ iframe#opendialog-chatwindow {
 }
 
 .od-author.mt .od-author--name {
-  margin-top: 0px;
+  padding-top: 0px;
   padding-bottom: 0px;
   margin-left: 8px;
   color: #666665;
@@ -414,4 +414,14 @@ iframe#opendialog-chatwindow{
 .od-author.mt img.avatar {
   width: 32px;
   height: 32px;
+}
+
+
+
+
+
+@media (min-width: 900px) {
+  .od-author.mt .od-author--name{
+    margin-top: 100px;
+  }
 }
