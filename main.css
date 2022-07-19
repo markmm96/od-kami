@@ -1,7 +1,7 @@
 .od-messagelist {
   border-radius: 32px;
   background-color: white;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .od-chat-window.iframe.opened{
@@ -111,7 +111,7 @@
 
 
 
-/* .od-user-input .od-user-input__form {
+.od-user-input .od-user-input__form {
   display: flex;
   flex-direction: row;
   border-radius: 100vw;
@@ -123,9 +123,9 @@
   height: 80px;
   width: 100%;
   box-shadow: 0px 1px 2px rgba(66, 48, 31, 0.03), 0px 4px 16px rgba(57, 45, 27, 0.03);
-} */
+}
 
-.od-user-input {
+/* .od-user-input {
   width: 90%;
   position: absolute;
   bottom: 24px;
@@ -148,7 +148,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-}
+} */
 
 
 
