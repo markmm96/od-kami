@@ -217,7 +217,7 @@ iframe#opendialog-chatwindow {
   padding: 16px 32px !important;
   font-size: 15px;
   border: 0px;
-  border-radius: 100vw;
+  border-radius: 100px;
   transition: 0.4s cubic-bezier(0.000, 0.405, 0.000, 1.285);
 }
 
@@ -392,4 +392,11 @@ iframe#opendialog-chatwindow{
   height: 100%;
   position: relative;box-shadow: none;
 
+}
+
+.messagelist{
+  padding-top: 0px;
+}
+.od-chat-window.iframe.opened{
+  margin-top: -80px;
 }
