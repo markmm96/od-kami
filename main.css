@@ -272,6 +272,7 @@ iframe#opendialog-chatwindow{
 .od-author.mt img.avatar {
   width: 32px;
   height: 32px;
+  border-radius: 0px;
 }
 
 
