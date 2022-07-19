@@ -217,6 +217,7 @@ iframe#opendialog-chatwindow {
   padding: 16px 32px !important;
   font-size: 15px;
   border: 0px;
+  border-radius: 100vw;
   transition: 0.4s cubic-bezier(0.000, 0.405, 0.000, 1.285);
 }
 
