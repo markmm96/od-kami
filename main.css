@@ -387,8 +387,8 @@ iframe#opendialog-chatwindow{
   padding-bottom: 8px;
 }
 
-.messagelist{
-  padding-top: 0px;
+.od-messagelist{
+  padding-top: -40px;
 }
 .od-chat-window.iframe.opened{
   width: 100%;
@@ -398,6 +398,7 @@ iframe#opendialog-chatwindow{
   border: 1px solid black;
   border-radius: 32px;
   background: white;
+  margin: 0;
 
 }
 .od-user-input{
