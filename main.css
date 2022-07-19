@@ -1,6 +1,7 @@
 .od-messagelist {
   border-radius: 32px;
   background-color: white;
+  overflow: hidden;
 }
 
 .od-chat-window.iframe.opened{
@@ -125,20 +126,20 @@
 } */
 
 .od-user-input {
-  width: 100%;
+  width: 90%;
   position: absolute;
-  bottom: 0px;
-
+  bottom: 24px;
+  background: pink;
 }
 
 .od-user-input__form {
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   width: 100%;
-  background: white;
-  border-top: 0.5px solid #E6E4E1;
+  background: purple;
+  border: 0.5px solid #E6E4E1;
   max-width: 100%;
 }
 
