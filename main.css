@@ -154,7 +154,8 @@ iframe#opendialog-chatwindow {
 /* -------------------- */
 
 .od-messagelist {
-  background-color: #FFFEFC;
+  background-color: none;
+  border-radius: 48px;
 }
 
 .web-chat .close-chat {
