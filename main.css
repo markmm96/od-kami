@@ -391,10 +391,14 @@ iframe#opendialog-chatwindow{
   padding-top: 0px;
 }
 .od-chat-window.iframe.opened{
-  width: 100vw;
+  width: 100%;
+  max-width: 800px;
   height: 100%;
   position: relative;
-  box-shadow: none;
+  border: 1px solid black;
+  border-radius: 32px;
+  background: white;
+
 }
 .od-user-input{
   background-color: none;
