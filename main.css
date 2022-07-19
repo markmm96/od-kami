@@ -392,15 +392,22 @@ iframe#opendialog-chatwindow{
   padding-top: 0px;
 }
 .od-chat-window.iframe.opened{
-  width: 100%;
+  width: auto;
   max-width: 800px;
-  height: 100%;
+  height: auto;
   position: relative;
+  background: blue;
   border: 0.5px solid #E6E4E1;
   border-radius: 32px;
   margin: 0 auto;
   box-shadow: 0px 8px 64px 0px #362B1A08, 0px 8px 24px 0px #392D1B08, 0px 2px 4px 0px #42301F08 !important;
 }
 .od-user-input{
-  background-color: none;
+  background: none;
+  margin-bottom: -48px;
+}
+
+.od-chat-window-container{
+  /* padding: 64px; */
+  background: orange;
 }
